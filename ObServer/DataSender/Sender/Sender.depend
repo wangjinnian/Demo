@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1612070566 source:/home/wjn/C++Project/Demo/ObServer/ObServer/DataSender/Sender/main.cpp
+	<iostream>
+
+1612087512 source:/root/C++Project/Demo/ObServer/ObServer/DataSender/Sender/main.cpp
+	<iostream>
+	"Sender.hpp"
+
+1612087561 /root/C++Project/Demo/ObServer/ObServer/DataSender/Sender/Sender.hpp
+

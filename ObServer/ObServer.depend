@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1612101911 source:/root/C++Project/Demo/ObServer/ObServer/main.cpp
+	<iostream>
+	<memory.h>
+	"ObServer.hpp"
+	"Subject.hpp"
+
+1612101981 /root/C++Project/Demo/ObServer/ObServer/ObServer.hpp
+	<iostream>
+	"AbstractBase.hpp"
+
+1612101845 /root/C++Project/Demo/ObServer/ObServer/AbstractBase.hpp
+	<thread>
+	<mutex>
+	<condition_variable>
+	<list>
+	<queue>
+	<algorithm>
+	"DateRecv.hpp"
+
+1612097523 /root/C++Project/Demo/ObServer/ObServer/DateRecv.hpp
+	<memory>
+	"DataMode.h"
+
+1612098315 /root/C++Project/Demo/ObServer/ObServer/DataMode.h
+	<array>
+
+1612088886 /root/C++Project/Demo/ObServer/ObServer/Subject.hpp
+	"AbstractBase.hpp"
+
