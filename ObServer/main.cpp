@@ -2,6 +2,7 @@
 #include <memory>
 #include "ObServer.hpp"
 #include "Subject.hpp"
+#include "AtoMic.hpp"
 using namespace std;
 int main() {
     std::cout << "Hello, World!" << std::endl;
@@ -15,5 +16,10 @@ int main() {
     data.len=100000;
     data.speed=5;
     xiaofang.Notify(data);
+
+    MyAtoMic test;
+    test.TestNoAtomicMutex();
+    test.TestHasMutex();
+    test.TestHasAtomic();
     return 0;
 }
